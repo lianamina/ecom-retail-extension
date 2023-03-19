@@ -1,0 +1,11 @@
+{
+    "name": "Test Extention",
+    "version": "1.0.0",
+    "description": "This is our test extension",
+    "manifest_version": 3,
+    "author": "Liana Mina",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Test Extension"
+    }
+}
