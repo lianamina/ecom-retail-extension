@@ -1,11 +1,37 @@
-{
-    "name": "Test Extention",
-    "version": "1.0.0",
-    "description": "This is our test extension",
-    "manifest_version": 3,
-    "author": "Liana Mina",
+{   
+    "manifest_version": 1,
+    "name": "SM Retail",
+    "description": "Convergent project",
+    "version": "1.0",
+
+    "icons": {
+      
+    },
+
     "action": {
-        "default_popup": "index.html",
-        "default_title": "Test Extension"
-    }
-}
+      "default_popup": "html/popup.html"
+    },
+
+    "background": {
+      "service_worker": "js/background.js"
+    },
+
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": [ "js/content.js" ]
+      }
+     ],
+
+    "options_page": "html/options.html",
+
+    "permissions": [
+      "tabs",
+      "activeTab",
+      "scripting"
+    ],
+
+    "host_permissions": [
+      "<all_urls>"
+    ]
+  }
