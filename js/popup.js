@@ -1,3 +1,16 @@
+// this is just code to test it, I haven't gotten it to work yet
+var myVid = document.getElementById("7170454401923026222");
+function playVideo(){
+  myVid.play();
+}
+
+function pauseVideo(){
+  myVid.pause();
+}
+
+
+
+/*
 // listening for a click event on the #DanceOn <button>
 document.getElementById("DanceOn").addEventListener('click', async () => {
 
@@ -29,3 +42,4 @@ async function getTabId() {
   let tabs = await chrome.tabs.query(queryOptions);
   return tabs[0].id;
 }
+*/
