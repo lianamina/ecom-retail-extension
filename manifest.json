@@ -3,6 +3,12 @@
     "name": "Showroom",
     "description": "Convergent project",
     "version": "3.0",
+    
+    "content_security_policy": {
+      "extension_pages": "script-src 'self' https://www.tiktok.com; object-src 'self'",
+      "sandbox": "sandbox allow-scripts; script-src 'self' https://tiktok.com",
+      "sandbox": {"pages": ["index.html","assets/Static/tiktok.html"]}
+    },
 
     "icons": {
       
