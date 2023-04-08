@@ -1,12 +1,4 @@
-// this is just code to test it, I haven't gotten it to work yet
-var myVid = document.getElementById("7170454401923026222");
-function playVideo(){
-  myVid.play();
-}
 
-function pauseVideo(){
-  myVid.pause();
-}
 
 
 
