@@ -6,6 +6,10 @@
 <html lang="en">
 <head>
     <!-- combined the sortBy.html code into this file-->
+    <title>Shoppr</title>
+    <!-- <div class="logo">
+        <img src="/shoppr.png" alt="Logo">
+    </div> -->
     <script src="../js/popup.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,8 +19,9 @@
 </head>
 <body>
     <nav>
+        
         <div class="sortBy">
-            <p>shoppr</p>
+            <img class="logoImage" src="/shoppr.png" alt="Logo">
             <ul>
                 <li><a href="#">Sort By</a>
                 <ul>
@@ -26,7 +31,9 @@
                 </li>
             </ul>
         </div>
+        
     </nav>
+
     <div class="header">
         <h1 class="name">EltaMD UV Daily SPF</h1>
     </div>
@@ -52,6 +59,10 @@ body {
     position: relative;
     vertical-align:middle;
     background-color: white;
+}
+
+.logoImage {
+    width: 100px !important;
 }
 
 .header .name {
