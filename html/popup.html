@@ -6,7 +6,6 @@
 <html lang="en">
 <head>
     <!-- combined the sortBy.html code into this file-->
-    <title>Showroom</title>>
     <script src="../js/popup.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,7 +16,7 @@
 <body>
     <nav>
         <div class="sortBy">
-            <p>showroom</p>
+            <p>shoppr</p>
             <ul>
                 <li><a href="#">Sort By</a>
                 <ul>
@@ -31,7 +30,7 @@
     <div class="header">
         <h1 class="name">EltaMD UV Daily SPF</h1>
     </div>
-    <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+    <hr style="height:2px;border-width:0;color:#fe7706;background-color:white">
     <center>
         <iframe width="280" height="500" src="../tiktok1.mp4" frameborder="0" allowfullscreen></iframe>
         </iframe>
@@ -46,12 +45,13 @@
 </body>
 <style type="text/css">
 body {
-  min-width: 360px;
-  max-width: 100%;
-  min-height: 600px;
-  max-height: 100%;
-  position: relative;
-  vertical-align:middle;
+    min-width: 360px;
+    max-width: 100%;
+    min-height: 600px;
+    max-height: 100%;
+    position: relative;
+    vertical-align:middle;
+    background-color: white;
 }
 
 .header .name {
@@ -60,9 +60,12 @@ body {
     left: 0em;
     top: 2.25em;
     margin: 0;
-    color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #fe7706;
+    color: white;
     font-size: 2em;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: League system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .header {
@@ -82,7 +85,7 @@ body {
     border-radius: 5px;
     color: black;
     font-size: medium;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 25px;
     padding: 10px 14px 10px 44px;
     position: relative;
@@ -102,6 +105,10 @@ hr {
     border-width: 1px;
 }
 
+.sortBy{
+    z-index: 50;
+    position: relative;
+}
 
 
 nav {
