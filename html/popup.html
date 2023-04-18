@@ -18,23 +18,23 @@
     <link rel="stylesheet" type="text/css" href="../css/sortBy.css"></link>
 </head>
 <body>
-    <nav>
-        
-        <div class="sortBy">
-            <img class="logoImage" src="/shoppr.png" alt="Logo">
-            <ul>
-                <li><a href="#">Sort By</a>
-                <ul>
-                    <li><a href="#">Most Recent</a></li>
-                    <li><a href="#">Most Popular</a></li>
-                </ul>
-                </li>
-            </ul>
-        </div>
-        
-    </nav>
 
     <div class="header">
+        <nav>
+        
+            <div class="sortBy">
+                <img class="logoImage" src="/shoppr.png" alt="Logo">
+                <ul>
+                    <li><a href="#">Sort By</a>
+                    <ul>
+                        <li><a href="#">Most Recent</a></li>
+                        <li><a href="#">Most Popular</a></li>
+                    </ul>
+                    </li>
+                </ul>
+            </div>
+            
+        </nav>
         <h1 class="name">EltaMD UV Daily SPF</h1>
     </div>
     <hr style="height:2px;border-width:0;color:#1755F2;background-color:#f2f2f2">
@@ -62,7 +62,9 @@ body {
 }
 
 .logoImage {
-    width: 95px !important;
+    width: 89px !important;
+    position: absolute;
+    left: 0.5em;
 }
 
 .header .name {
@@ -70,7 +72,7 @@ body {
     display: flex;
     position: relative;
     left: 0em;
-    top: 2.25em;
+    top: 2em;
     margin: 0;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -100,7 +102,7 @@ body {
     border-radius: 5px;
     color: black;
     font-size: 15px;
-    font-family:unset;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-bottom: 25px;
     padding: 10px 14px 0px 20px;
     position: relative;
